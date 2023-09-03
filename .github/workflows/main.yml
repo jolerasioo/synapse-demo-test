@@ -22,8 +22,8 @@ jobs:
             ParametersFile: './TemplateParametersForWorkspace.json'
             environment: 'Azure Public'
             resourceGroup: 'aaaaaatest'
-            clientId: ${{secrets.CLIENTID2}}
-            clientSecret:  ${{secrets.CLIENTSECRET2}}
+            clientId: ${{secrets.CLIENTID}}
+            clientSecret:  ${{secrets.CLIENTSECRET}}
             subscriptionId: ${{secrets.SUBSCIPTIONID}}
             tenantId: ${{secrets.TENANTID}}
             DeleteArtifactsNotInTemplate: 'false'
